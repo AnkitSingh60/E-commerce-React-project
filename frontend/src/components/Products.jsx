@@ -11,10 +11,11 @@ const Products = () => {
   
   const products = useSelector((store) => store.products.data);
   useEffect(() => {
+    setData(products)
     dispatch(getProductsData());
   }, []);
   const filterProduct = (cat) => {
-    const updatedList = products.filter((x) => {
+    const updatedList = data.filter((x) => {
       return x.category === cat;
     });
     setData(updatedList);
@@ -32,7 +33,7 @@ const Products = () => {
           type="button"
           className="btn btn-secondary grdntBtn grdntBtn"
           onClick={() => {
-            setData(products);
+            setData(data);
           }}
         >
           All
