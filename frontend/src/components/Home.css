@@ -251,9 +251,11 @@
 /* payment from bootstrap */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
-
-
+.paymentt{
+  margin-top: 90px;
+}
   .Paycard {
+
     width: 800px;
     margin: auto;
     color: black;

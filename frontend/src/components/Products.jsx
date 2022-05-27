@@ -8,6 +8,7 @@ const Products = () => {
   const [data, setData] = useState([]);
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  
   const products = useSelector((store) => store.products.data);
   useEffect(() => {
     dispatch(getProductsData());

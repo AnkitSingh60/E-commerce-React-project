@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
+import Navbar from "../components/Navbar"
 
 const Payment = () => {
     const navigate = useNavigate()
@@ -9,6 +10,7 @@ const Payment = () => {
       };
   return (
     <>
+    <Navbar/>
     
     <div className="paymentt">
         <div className="Paycard px-4">

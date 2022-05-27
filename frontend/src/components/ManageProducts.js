@@ -19,7 +19,6 @@ const ManageProducts = () => {
 
 
   const Edit = (id) => {
-    // console.log(id);
     <Link to={`/products/updateproduct`}></Link>
     navigate(`/products/${id}`)
   }
@@ -27,12 +26,9 @@ const ManageProducts = () => {
     <>
       <Navbar />
       <div className="manageProducts">
-        {/* variant="outline-primary" */}
         <Link to="/addproducts"> <Button >Add Product</Button></Link>
-        {/* <Link className="btnn3" to="/updateproducts/:id"> <Button  style={{width:"150px"}}  > Update Product </Button> </Link> */}
         <Link className="btnn3" to="/deleteproducts"> <Button style={{ width: "150px" }}  > Delete Product </Button> </Link>
       </div>
-      {/* <Products/> */}
 
       <div className="productCard">
         {data.map((item, index) => {
