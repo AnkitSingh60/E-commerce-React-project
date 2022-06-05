@@ -14,11 +14,30 @@ In the project directory, you can run:
 
 ### `npm start`
 
+#ScreenShots
+
+- Home page
+- <img src="https://user-images.githubusercontent.com/93372584/172051019-af4daf7e-1ded-41a0-a618-d22ae0530533.png" style="width: 100%; max-width: 100%; height: auto" title="Click to enlarge picture" />
+  
+- Product page (add delete and update)
+- <img src="https://user-images.githubusercontent.com/93372584/172051123-028f6b88-cff8-4c11-b0cf-9242de7adbf0.png" style="width: 100%; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+- Product details page  
+- <img src="https://user-images.githubusercontent.com/93372584/172051149-6858c8a9-c463-44c1-ae8d-5d801be20c73.png" style="width: 100%; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+- Cart page  
+- <img src="https://user-images.githubusercontent.com/93372584/172051180-8292288b-ad14-492b-b1fc-300474a9c09e.png" style="width: 100%; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+- Payment page  
+- <img src="https://user-images.githubusercontent.com/93372584/172051215-c4e35f77-37d5-4893-b4b6-22be126b5d1e.png" style="width: 100%; max-width: 100%; height: auto" title="Click to enlarge picture" />
+  
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
 
 ### `npm test`
 
